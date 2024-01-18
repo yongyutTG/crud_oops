@@ -12,6 +12,7 @@
       $username = $_POST['username'];
       $dob = $_POST['dob'];
       $dbObj->insertRecond($name, $email, $username, $dob);
+    
    }
 
    // View record
